@@ -5,7 +5,12 @@ peso = float(input('Digite seu peso (kg): '))
 altura = float(input('Digite sua altura (m): '))
 imc = peso / (altura * altura)
 
-print('Seu IMC é {}'.format(imc))
+println('Seu IMC é {}'.format(imc))
+println('menor que 18.5 - Abaixo do peso')
+println('de 18.5 até 24.9 - Saudável')
+println('de 25 até 29.9 - Sobrepeso ')
+println('maior 29.9 - Obeso')
+
 ```
 ##
 ## Para o Linux: <strong>x_Freeze</strong>
