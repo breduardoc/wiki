@@ -12,11 +12,24 @@ print('Seu IMC é {}'.format(imc))
 Instalação do pacote:
 * ```pip install cx_Freeze```
 
-Execução via terminal:
+Execução via terminal Linux:
 * ```cxfreeze imc.py --target-dir calculadora-imc```
 
-Saída esperada:
-* ```imc lib libpython3.6m.so.1.0```
+Saída esperada no Linux:
+```
+yan@linux-flrj:~/imc/calculadora-imc> ls
+arquivo<imc> pasta<lib> biblioteca<libpython3.6m.so.1.0>
+yan@linux-flrj:~/imc/calculadora-imc>
+```
+
+Executando no Linux:
+```
+yan@linux-flrj:~/imc/calculadora-imc> ./imc
+Digite seu peso (kg): 90
+Digite sua altura (m): 1.80
+Seu IMC é 27.777
+yan@linux-flrj:~/imc/calculadora-imc>
+```
 
 <b>Ps.: Executar com todos os arquivos na mesma pasta</b>
 ##
