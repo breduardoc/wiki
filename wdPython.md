@@ -12,7 +12,7 @@ print('Seu IMC é {}'.format(imc))
 Instalação do pacote:
 * ```pip install cx_Freeze```
 
-Execução via terminal Linux:
+Compilando via terminal Linux:
 * ```cxfreeze imc.py --target-dir calculadora-imc```
 
 Saída esperada no Linux:
@@ -40,7 +40,7 @@ yan@linux-flrj:~/imc/calculadora-imc>
 Instalação do pacote:
 * ```pip install pyinstaller```
 
-Execulção via terminal:
+Compilando via terminal:
 * ```pyinstaller –onefile imc.py```
 
 Saída esperada:
