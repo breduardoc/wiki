@@ -1,4 +1,4 @@
-# Arquivos executáveis para Linux ou Window:
+# Como Gerar Executáveis no Linux / Window:
 Programa Teste (IMC)
 ```python
 peso = float(input('Digite seu peso (kg): '))
