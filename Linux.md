@@ -1,30 +1,48 @@
 # Meu Repositório Wiki Linux
 <em>Meu Repositório Wiki de Aprendizado Linux</em>
 
-* **Apropus password** comandos que alteram senha
-* **Nome_do_programa ou ./Nome_do_programa** abre app, ajuda no debug
-* **Shift+PageUp** sobe pág
-* **Ctrl+A ou E** vai ao início / fim do comando
-* **Ctrl+L ou C** limpa terminal / Cancelar ação
-* **man |Comando|** traz manual do comando
-* **cd -** retorna na pasta anterior
-* **rm -rf** /endereço remove
-* **sudo apt-get install / remove / install -f** nome_do_programa instalar / desinstalar / corrigir packs quebrados
-* **sido apt-get autoremove / autoclean desinstalar** pacotes obsoletos / limpa cachê apt 
-* **sudo apt-get update / upgrade** baixa os pactoes atualizados / atualiza
-* **ps aux | grep java** retorna os processos ativos do Java
-* **top -p** lista os processos e estado da cpu
-* **sudo netstat -anp |less** saber qual processo é dono de qual porta
-* **netstat -an | grep ESTAB | wc** quantia de conexões de rede no host
+| COMANDO | RESULTADO |
+| --- | --- |
+| Apropus password | comandos que alteram senha |
+| Nome_do_programa ou ./Nome_do_programa | Abre app, ajuda no debug |
+| Shift+PageUp | Sobe pág |
+| Ctrl+A ou E | Vai ao início | Fim do comando |
+| Ctrl+L ou C | Limpa terminal | Cancelar ação |
+| man Comando | Traz manual do comando |
+| cd - | Retorna na pasta anterior |
+| rm -rf | Endereço remove |
+| sudo apt-get install Nome_do_programa | Instalar programa |
+| sudo apt-get install -f Nome_do_programa | Instala por cima, corrige packs |
+| sudo apt-get remove Nome_do_programa | Desinstalar programa|
+| sudo apt-get autoremove | Desinstalar pacotes obsoletos |
+| sudo autoclean | Limpa cache apt |
+| sudo apt-get update | Baixa os pactoes atualizados |
+| sudo apt-get upgrade | Atualiza sistema e apps |
+| ps aux \| grep java | Retorna os processos ativos do Java |
+| top -p | Lista os processos e estado da cpu |
+| sudo netstat -anp \| less | Saber qual processo é dono de qual porta |
+| netstat -an \| grep ESTAB \| wc | Quantia de conexões de rede no host |
+---
+## Como Habilitar o Subsistema Linux no Win10
+- 1 - Ativar Modo Desenvolvedor
+ - Iniciar
+ - Configurações
+ - Atualização e seguranca para desenvolvedores
+ - Modo Desenvolvedor On
 
-## Linux no Win10
-```
-* Iniciar configurações atualização_e_seguranca para_desenvolvedores modo_desenvolvedor on
+- 2 - Ativar Recurso Subsistema
+ - Acessar Painel de controle
+ - Programas
+ - Ativar desativar recursos do Windows
+ - Subsistema do Windows para Linux on
 
-* Painel_de_controle programas ativar_desativar_recursos_do_windows subsistema_do_windows_para_linux on
+- 3 - Passo Intermediário
+ - Iniciar
+ - Aplicação bash.exe
+ - Copiar endereço penúltima linha https://
+ - Cola no navegador
 
-* Iniciar bash.exe
-* Copiar endereço penúltima linha https://
-* Cola no navegador
-* Microsoft store escolhe ex.:Debian e inicia
-```
+- 4 - Baixar Versão da Microsoft Store
+	- Acessar Microsoft Store
+	- Escolhe Linux ex.:Debian
+	- Iniciar Linux
