@@ -13,7 +13,7 @@ println('maior 29.9 - Obeso')
 
 ```
 ##
-## Para o Linux: <strong>x_Freeze</strong>
+## Para o Linux: <strong>x_Freeze[^1]</strong>
 Instalação do pacote:
 * ```pip install cx_Freeze```
 
@@ -41,7 +41,7 @@ yan@linux-flrj:~/imc/calculadora-imc>
 
 
 
-## Para o Windows: <strong>pyinstalller</strong>
+## Para o Windows: <strong>pyinstalller[^2]</strong>
 Instalação do pacote:
 * ```pip install pyinstaller```
 
@@ -53,9 +53,9 @@ Saída esperada:
 
 ##
 ### Refs.:
-* Linux <strong>x_Freeze</strong> :
+[^1]: Linux <strong>x_Freeze</strong> :
 [ALURA](https://www.alura.com.br/artigos/criando-um-executavel-a-partir-de-um-programa-python)
 
-* Windows <strong>pyinstaller</strong> :
+[^2]: Windows <strong>pyinstaller</strong> :
 [HASHTAGTREINAMENTOS](
 https://www.hashtagtreinamentos.com/arquivo-executavel-python?gclid=Cj0KCQjwqc6aBhC4ARIsAN06NmNM1X9DDkTDFJLiLAxtMviabn5dPDyabWBFlkYcCoid9VEBxbtGKMIaAn77EALw_wcB)
