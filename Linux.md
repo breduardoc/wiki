@@ -25,22 +25,22 @@
 ---
 ## Como Habilitar o Subsistema Linux no Win10
 - 1 - Ativar Modo Desenvolvedor
- - Iniciar
- - Configurações
- - Atualização e seguranca para desenvolvedores
- - Modo Desenvolvedor On
+ 	- Iniciar
+ 	- Configurações
+ 	- Atualização e seguranca para desenvolvedores
+ 	- Modo Desenvolvedor On
 
 - 2 - Ativar Recurso Subsistema
- - Acessar Painel de controle
- - Programas
- - Ativar desativar recursos do Windows
- - Subsistema do Windows para Linux on
+ 	- Acessar Painel de controle
+ 	- Programas
+ 	- Ativar desativar recursos do Windows
+ 	- Subsistema do Windows para Linux on
 
 - 3 - Passo Intermediário
- - Iniciar
- - Aplicação bash.exe
- - Copiar endereço penúltima linha https://
- - Cola no navegador
+ 	- Iniciar
+ 	- Aplicação bash.exe
+ 	- Copiar endereço penúltima linha https://
+ 	- Cola no navegador
 
 - 4 - Baixar Versão da Microsoft Store
 	- Acessar Microsoft Store
